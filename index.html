@@ -51,7 +51,7 @@
 
       <!-- -----Hero Section----- -->
       <section
-        class="flex flex-col sm:flex-row mx-auto my-7 sm:my-[120px] items-center justify-between"
+        class="flex flex-col sm:flex-row mx-4 sm:mx-auto my-7 sm:my-[120px] items-center justify-between"
       >
         <div class="order-2 sm:order-1 text-left">
           <h1 class="text-2xl sm:text-7xl mt-2 font-bold pl-3">
@@ -80,14 +80,16 @@
         <h1 class="font-bold text-center text-2xl sm:text-6xl m-4">
           <span class="text-orange-400">Our</span> Plants
         </h1>
-        <p class="text-gray-500 text-center">
+        <p class="text-center text-gray-500">
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop. From classic roses to exotic blooms, we offer a wide variety of
           fresh.
         </p>
 
         <!-- ----Flowers Cards---- -->
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-8">
+        <div
+          class="mx-4 sm:mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-8"
+        >
           <div class="bg-white p-4">
             <img
               src="./assets/sample-flower-image.png"
@@ -204,7 +206,7 @@
       </section>
       <!-- ----Plants Lover Section---- -->
       <section
-        class="h-125 flex flex-col sm:flex-row items-center justify-between mx-auto mt-[214px] gap-2"
+        class="h-auto flex flex-col sm:flex-row items-center justify-center mx-4 sm:mx-auto mt-[214px] gap-2"
       >
         <div class="flex-1/2">
           <img
@@ -219,7 +221,9 @@
           />
         </div>
         <div class="text-left flex-1/2">
-          <h1 class="text-3xl sm:text-5xl font-bold">Flower & Plants Lover</h1>
+          <h1 class="text-3xl sm:text-5xl font-bold mt-2.5">
+            Flower & Plants Lover
+          </h1>
           <ul class="list-disc m-4">
             <li class="text-gray-500 m-4">
               Indulge your senses with the beauty and fragrance of our fresh
@@ -245,5 +249,28 @@
         </div>
       </section>
     </div>
+
+    <!-- -----Join Section---- -->
+
+    <section class="text-white text-center">
+      <div
+        class="bg-[url(./assets/news-letter-bg.png)] bg-no-repeat bg-cover w-full h-140 justify-center items-center flex flex-col"
+      >
+        <h1 class="text-3xl sm:text-6xl font-bold">Join the colorful Bunch</h1>
+        <form class="flex justify-center mt-7">
+          <input
+            type="email"
+            placeholder="Write your email"
+            class="p-2 sm:px-4 sm:py-3 w-75% sm:w-175 mx-auto text-gray-600 bg-white"
+          />
+          <button
+            type="submit"
+            class="p-2 sm:px-4 sm:py-3 w-25% sm:w-35 bg-orange-600 font-bold"
+          >
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </section>
   </body>
 </html>
